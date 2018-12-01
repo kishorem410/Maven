@@ -1,0 +1,52 @@
+van:(Project Object Model)
+-----
+ * It is a Java based S/w project management and comprehension tool.It can manage project's build, reporting and documentation.
+ * Maven increases reusability.
+ 
+Build Process:
+-------------
+ * It is a process that covers all the steps 
+        - Generate Source.
+        - Compiling a source
+		- Executing test(UNIT and Integration  Test)
+		- Packaging (Jar, war and ear)
+		- Runining health checks
+		- Generating reports
+A build process alone will speed the migration of software from one environment to another.
+
+Compiling & Execution:
+---------------------
+     This are two steps processes.
+	       - During compilation phase Java compiler compiles the source code.(.class file)
+		   - JVM takes the .class as input and generate output by executing the bytecode.
+
+Installation:
+-------------
+        - Install Java
+		- Download the maven (wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+		- Extract the file & rename file "apache-maven" and copy to /usr/local/src/
+		- Export the paths: "#export M2_HOME=/usr/local/src/apache-maven"
+		                    "#export PATH=${M2_HOME}/bin:${PATH}"
+		- mvn --version
+           Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-18T00:03:14+05:30)
+
+Maven ---> POM file(pom.xml) --> Maven Local Repository
+
+3 Life Cycle:
+   1) Default:
+         -Verify: Check any dependencies
+		 -compile: Coplie the source code
+		 -Test-compile: Compile unit test code
+		 -Test: Exe of unit test
+		 -Package: Jat/war
+		 -Install
+		 -Deploy
+  $mvn archetype:generate 
+		 
+		
+	2)Clean:
+	3)Site:
+
+POM File contains:
+                     (Build lifecycle,Dependecies,Build Plugins,Build Profiles) 
+
