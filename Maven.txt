@@ -71,7 +71,7 @@ Ex: pom.xml
 </model>
 
 
-       Stage1: <<<Project:(It is the root element of pom.xml file>>>
+   Stage1: <<<Project:(It is the root element of pom.xml file>>>
    Stage2: <<<Model version:Sub element of project.Which is set to 1.0.0>>>
    Stage3: <<<Group ID:(It specifies the id for the project group) >>>>
    Stage4: <<<artifactID:(It specifies the id for the artifact.
