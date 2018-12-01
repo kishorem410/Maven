@@ -1,4 +1,4 @@
-van:(Project Object Model)
+Maven:(Project Object Model)
 -----
  * It is a Java based S/w project management and comprehension tool.It can manage project's build, reporting and documentation.
  * Maven increases reusability.
